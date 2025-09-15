@@ -10,18 +10,18 @@ export function Welcome() {
             <img
               src={logoLight}
               alt="React Router"
-              className="block w-full dark:hidden"
+              className="block w-full dark:hidden animate-fade-in animate-duration-1000"
             />
             <img
               src={logoDark}
               alt="React Router"
-              className="hidden w-full dark:block"
+              className="hidden w-full dark:block animate-fade-in animate-duration-1000"
             />
           </div>
         </header>
         <div className="max-w-[300px] w-full space-y-6 px-4">
-          <nav className="rounded-3xl border border-gray-200 p-6 dark:border-gray-700 space-y-4">
-            <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
+          <nav className="rounded-3xl border border-gray-200 p-6 dark:border-gray-700 space-y-4 animate-slide-in-up animate-delay-500 animate-duration-700">
+            <p className="leading-6 text-gray-700 dark:text-gray-200 text-center animate-bounce animate-duration-2000 animate-delay-1000">
               What&apos;s next?
             </p>
             <ul>

@@ -1,6 +1,10 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
-@theme {
+@theme inline {
+  --spacing-*: initial;
+  --spacing-sp-0: 0px;
+  --spacing-sp-1: 4px;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
